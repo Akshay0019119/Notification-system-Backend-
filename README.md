@@ -23,7 +23,12 @@ A Node.js microservice that sends **Email**, **SMS**, and **In-App notifications
 - **RabbitMQ** (local or [CloudAMQP](https://www.cloudamqp.com/))
 - (Optional) SMTP and Twilio credentials for real Email/SMS sending
 
----
+API Overview
+POST /api/notifications – Queue a new notification
+
+GET /api/users/:userId/notifications – Get all notifications for a user
+
+## API documentation: "https://drive.google.com/file/d/1edZqOY03kifepT-s63_pX4wChr_Ed0Bu/view?usp=sharing"
 
 ## 📦 Installation
 
@@ -112,3 +117,4 @@ Folder Structure
 ├── .env.example             # Sample env file
 ├── .gitignore               # Ignore node_modules/.env
 ├── README.md                # This file
+
